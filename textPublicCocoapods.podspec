@@ -18,4 +18,6 @@ s.platform     = :ios
 s.source       = { :git => "https://github.com/waitforsomeone/LMT.git", :tag => "#{s.version}" }
 s.source_files  = "textPublicCocoapods", "textPublicCocoapods/**/*.{h,m}"
 #s.exclude_files = "Classes/Exclude"
+  
+ s.dependency 'Alamofire'
 end
